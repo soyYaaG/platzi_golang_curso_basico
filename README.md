@@ -1,9 +1,9 @@
 # :green_heart: _platzi_: Curso básico de programación con Go
-<div style="display: inline-block">
+<div>
+    <img src="https://golang.org/lib/godoc/images/go-logo-blue.svg" alt="Go" width="70%" />
 	<img src="https://go.dev/images/gophers/blue.svg" alt="Go" width="25%" />
-	<img src="https://golang.org/lib/godoc/images/go-logo-blue.svg" alt="Go" width="50%" style="vertical-alig: top" />
 </div>
-
+<br />
 **Go** es un lenguaje de programación concurrente y compilado inspirado en la sintaxis de C, que intenta ser dinámico como python y con el rendimiento de C o C++.
 
 `go build`: Generar un binario ejecutable para nuestra aplicación Go, lo que le permitirá distribuir e implementar el programa donde lo desee.
