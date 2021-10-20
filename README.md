@@ -1,6 +1,6 @@
 # :green_heart: _platzi_: Curso básico de programación con Go
 <img src="https://go.dev/images/gophers/blue.svg" alt="Go" width="25%" />
-<img src="https://golang.org/lib/godoc/images/go-logo-blue.svg" alt="Go" width="70%" />
+<img src="https://golang.org/lib/godoc/images/go-logo-blue.svg" alt="Go" width="50%" />
 
 **Go** es un lenguaje de programación concurrente y compilado inspirado en la sintaxis de C, que intenta ser dinámico como python y con el rendimiento de C o C++.
 
