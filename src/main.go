@@ -36,7 +36,7 @@ func main() {
 	x++
 	fmt.Println("Incremental:", x)
 
-	// Decremental
+	// Decremental Aritméticos
 	x--
 	fmt.Println("Decremental:", x)
 }
