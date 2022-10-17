@@ -2,29 +2,35 @@ package main
 
 import "fmt"
 
-func normalFunction(message string) {
-	fmt.Println(message)
-}
-
-func tripeArgument(a, b int, c string) {
-	fmt.Println(a, b, c)
-}
-
-func returnValue(a int) int {
-	return a * 2
-}
-
-func doubleReturn(a int) (c, d int) {
-	return a, a * 2
-}
-
 func main() {
-	normalFunction("Hola mundo")
-	tripeArgument(1, 2, "hola")
 
-	value := returnValue(2)
-	fmt.Println("Value:", value)
+	// For condicinal
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
+	}
 
-	value1, _ := doubleReturn(2)
-	fmt.Println("value1", value1)
+	fmt.Printf("\n")
+
+	// For while
+	counter := 0
+	for counter < 10 {
+		fmt.Println(counter)
+		counter++
+	}
+
+	fmt.Printf("\n")
+
+	// For forever
+	// Tener cuidado. Se va a ejecutar infinitamente ya que no tiene ninguna condición para cerrarse.
+	// counterForever := 0
+	// for {
+	// 	fmt.Println(counterForever)
+	// 	counterForever++
+	// }
+
+	fmt.Printf("\n")
+
+	for i := 10; i > 0; i-- {
+		fmt.Println(i)
+	}
 }
